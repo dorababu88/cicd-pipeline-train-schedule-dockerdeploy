@@ -30,7 +30,7 @@ pipeline {
 
                 script {
 
-                    app = docker.build("dorababup/train-schedule")
+                    app = docker.build("Dorababup/train-schedule")
 
                     app.inside {
 
